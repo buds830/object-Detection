@@ -1,0 +1,214 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+html {
+  box-sizing: border-box;
+
+}
+body {
+  font: 400 15px/1.8 Lato, sans-serif;
+  color: #777;
+}
+h1{
+  font-weight: 700;
+  letter-spacing: 3px;
+}
+h3 {
+  margin: 10px 0 30px 0;
+  letter-spacing: 2px;
+  font-size: 20px;
+
+}
+h2{
+  font-family: sf pro display,-apple-system,BlinkMacSystemFont,Roboto,segoe ui,Helvetica,Arial,sans-serif,apple color emoji,segoe ui emoji,segoe ui symbol;
+    font-weight: 700;
+    line-height: 1.2;
+    letter-spacing: 3px;
+    font-size: 2.9rem;
+}
+p{
+  font-family: sf pro text,-apple-system,BlinkMacSystemFont,Roboto,segoe ui,Helvetica,Arial,sans-serif,apple color emoji,segoe ui emoji,segoe ui symbol;
+    font-weight: 400;
+
+    line-height: 2;
+    font-size: 1.8rem;
+}
+
+.container {
+  padding: 80px 120px;
+}
+.lo{
+  padding: 5px;
+  background-size: cover;
+}
+.carousel-inner img {
+
+  width: 100%;
+  margin: auto;
+}
+.carousel-caption h3 {
+  color: #fff !important;
+}
+@media (max-width: 600px) {
+  .carousel-caption {
+    display: none; /* Hide the carousel text when the screen is less than 600 pixels wide */
+  }
+}
+.navbar li a, .navbar .navbar-brand {
+    color: #219F94 !important;
+}
+.btn:hover, .btn:focus {
+
+  background-color: #11468F;
+  color:#219F94;
+}
+.btn {
+  padding: 10px 20px;
+  font-size: 15px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color: #219F94;
+  border: none;
+  border-radius: 15px;
+
+}
+a{
+  text-decoration:none;
+  font-color:#219F94;
+}
+.btn:active {
+  background-color: #219F94;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+  color: #fff;
+}
+#googleMap {
+  width: 100%;
+  height: 400px;
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
+.navbar {
+    font-family: sf pro display,-apple-system,BlinkMacSystemFont,Roboto,segoe ui,Helvetica,Arial,sans-serif,apple color emoji,segoe ui emoji,segoe ui symbol;
+  margin-bottom: 0;
+  background-color: #2d2d30;
+  border: 0;
+  opacity: 0.9;
+  font-weight: 700;
+  line-height: 1.2;
+  letter-spacing: -.02rem;
+    font-size: 1.6rem;
+}
+.navbar-nav li a:hover {
+  color: #052421 !important;
+}
+.navbar li a {
+    color: #219F94 !important;
+}
+.navbar-nav li.active a {
+  color: #219F94!important;
+  background-color: #29292c !important;
+}
+.navbar-default .navbar-toggle {
+  border-color: transparent;
+}
+
+footer {
+  background-color: #2d2d30;
+  color: #f5f5f5;
+  padding: 32px;
+}
+footer a {
+  color: #f5f5f5;
+}
+footer a:hover {
+  color: #777;
+  text-decoration: none;
+}
+*, *:before, *:after {
+  box-sizing:inherit;
+
+}
+
+.about-section {
+  margin-top: 20px;
+  padding: 50px;
+  text-align: center;
+  background-color: #BB8760;
+  color: white;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color:white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+.button:hover {
+  background-color: #4FBDBA;
+}
+
+@keyframes animate{
+  0%{
+    background-position: 0 50%;
+  }
+  50%{
+    background-position: 100% 50%;
+  }
+  100%{
+    background-position: 0 50%;
+  }
+}
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+#banner_image{
+    padding-top:6%;
+    padding-bottom:5%;
+    text-align: center;
+    color: #f8f8f8;
+    background: url(images/home-bg.jpg) no-repeat center center;
+    background-size: cover;
+    height:100%;
+    width:100%;
+}
+#banner_content{
+    position: relative;
+    padding-top: 6%;
+    padding-bottom: 6%;
+    margin-top: 12%;
+    margin-bottom: 12%;
+    overflow:hidden;
+    background-color: rgba(0, 0, 0, 0.7);
+    max-width: 660px;
+    margin-left:auto;
+    margin-right: auto;
+    color:#fff;
+}
+
+footer{
+    padding: 10px 0;
+    background-color: #101010;
+    color:#9d9d9d;
+    width: 100%;
+    position: relative;
+    bottom:0;
+}
+.carousel-caption{
+  margin-bottom: 20%;
+  background-color: #171717 ;
+  opacity: 0.8;
+  height: 40%;
+}
